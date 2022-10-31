@@ -1,11 +1,13 @@
 <div class="container__big-card">
     <a href="">
-        <div class="big-card__photo">
-            <img src= {{photoCover}}
+        <div class="big-card__photo"> 
+            <a [routerLink]="['content',Id]" class="big-card__photo">
+                <img src= {{photoCover}}
                 alt=""
-                height="200px"
+                height="225px"
                 srcset=""
-            >
+                >
+            </a>
         </div>
         <div class="big-card__title">
             <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>

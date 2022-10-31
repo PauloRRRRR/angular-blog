@@ -3,11 +3,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #242425;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-color: #191C22;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    height: 100vh;
 }
 
 a{
     text-decoration: none;
+}
+
+strong{
+    color: aqua;
+}
+
+@media screen and (max-width: 1080px){
+    body{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        height: 100%;
+    }
 }

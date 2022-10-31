@@ -27,6 +27,13 @@
 }
 
 .content__description > p{
-    margin-top: 20px;
+    margin: 20px;
     color: grey;
+}
+
+.content__description > a{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    
 }
